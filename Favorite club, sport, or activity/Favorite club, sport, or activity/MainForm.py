@@ -9,22 +9,12 @@ class MainForm(Form):
         self.InitializeComponent()
     
     def InitializeComponent(self):
-        self._label1 = System.Windows.Forms.Label()
         self._button1 = System.Windows.Forms.Button()
         self._button2 = System.Windows.Forms.Button()
         self._button3 = System.Windows.Forms.Button()
         self._button4 = System.Windows.Forms.Button()
         self._label2 = System.Windows.Forms.Label()
         self.SuspendLayout()
-        # 
-        # label1
-        # 
-        self._label1.Font = System.Drawing.Font("Wingdings", 72, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 2)
-        self._label1.Location = System.Drawing.Point(30, 9)
-        self._label1.Name = "label1"
-        self._label1.Size = System.Drawing.Size(918, 423)
-        self._label1.TabIndex = 0
-        self._label1.Click += self.Label1Click
         # 
         # button1
         # 
@@ -90,7 +80,6 @@ class MainForm(Form):
         self.Controls.Add(self._button3)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
-        self.Controls.Add(self._label1)
         self.Name = "MainForm"
         self.Text = "Favorite club, sport, or activity"
         self.ResumeLayout(False)
