@@ -1,0 +1,12 @@
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\bin\Debug\hello bro.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\bin\Debug\hello bro.exe
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\bin\Debug\hello bro.dll
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\obj\Debug\hello bro.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\obj\Debug\hello_bro.MainForm.resources
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\obj\Debug\hello bro.pyproj.GenerateResource.Cache
+C:\Users\Brotzman.h\Desktop\Programing\hello bro\hello bro\obj\Debug\hello bro.exe
