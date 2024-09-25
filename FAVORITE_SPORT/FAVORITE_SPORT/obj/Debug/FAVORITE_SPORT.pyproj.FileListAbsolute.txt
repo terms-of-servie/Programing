@@ -1,0 +1,12 @@
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\bin\Debug\FAVORITE_SPORT.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\bin\Debug\FAVORITE_SPORT.exe
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\bin\Debug\FAVORITE_SPORT.dll
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\obj\Debug\FAVORITE_SPORT.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\obj\Debug\FAVORITE_SPORT.MainForm.resources
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\obj\Debug\FAVORITE_SPORT.pyproj.GenerateResource.Cache
+C:\Users\Brotzman.h\Desktop\Programing\FAVORITE_SPORT\FAVORITE_SPORT\obj\Debug\FAVORITE_SPORT.exe

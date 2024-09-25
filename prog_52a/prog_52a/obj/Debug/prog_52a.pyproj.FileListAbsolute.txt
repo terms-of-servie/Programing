@@ -1,0 +1,12 @@
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\bin\Debug\prog_52a.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\bin\Debug\prog_52a.exe
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\bin\Debug\prog_52a.dll
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\obj\Debug\prog_52a.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\obj\Debug\prog_52a.MainForm.resources
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\obj\Debug\prog_52a.pyproj.GenerateResource.Cache
+C:\Users\Brotzman.h\Desktop\Programing\prog_52a\prog_52a\obj\Debug\prog_52a.exe
