@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "sport", "sport\sport.pyproj", "{21A643BA-7AC7-4C74-94E9-17B5F4EBA5BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A643BA-7AC7-4C74-94E9-17B5F4EBA5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A643BA-7AC7-4C74-94E9-17B5F4EBA5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A643BA-7AC7-4C74-94E9-17B5F4EBA5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A643BA-7AC7-4C74-94E9-17B5F4EBA5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

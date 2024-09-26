@@ -1,3 +1,0 @@
-C:\Users\Brotzman.h\Desktop\Programing\Favorite club, sport, or activity\Favorite club, sport, or activity\obj\Debug\Favorite club, sport, or activity.pyprojResolveAssemblyReference.cache
-C:\Users\Brotzman.h\Desktop\Programing\Favorite club, sport, or activity\Favorite club, sport, or activity\obj\Debug\Favorite_club__sport__or_activity.MainForm.resources
-C:\Users\Brotzman.h\Desktop\Programing\Favorite club, sport, or activity\Favorite club, sport, or activity\obj\Debug\Favorite club, sport, or activity.pyproj.GenerateResource.Cache
