@@ -1,0 +1,12 @@
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\bin\Debug\Pro 76A.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\bin\Debug\Pro 76A.exe
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\bin\Debug\Pro 76A.dll
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\obj\Debug\Pro 76A.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\obj\Debug\Pro_76A.MainForm.resources
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\obj\Debug\Pro 76A.pyproj.GenerateResource.Cache
+C:\Users\Brotzman.h\Desktop\Programing\Pro 76A\Pro 76A\obj\Debug\Pro 76A.exe

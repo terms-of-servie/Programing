@@ -1,0 +1,12 @@
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\bin\Debug\Schedule.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\bin\Debug\Schedule.exe
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\bin\Debug\Schedule.dll
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\obj\Debug\Schedule.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\obj\Debug\Schedule.MainForm.resources
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\obj\Debug\Schedule.pyproj.GenerateResource.Cache
+C:\Users\Brotzman.h\Desktop\Programing\Schedule\Schedule\obj\Debug\Schedule.exe
