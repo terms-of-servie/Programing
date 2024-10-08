@@ -40,19 +40,19 @@ class MainForm(Form):
         # label2
         # 
         self._label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        self._label2.Location = System.Drawing.Point(337, 96)
+        self._label2.Location = System.Drawing.Point(337, 104)
         self._label2.Name = "label2"
-        self._label2.Size = System.Drawing.Size(291, 382)
+        self._label2.Size = System.Drawing.Size(291, 374)
         self._label2.TabIndex = 1
         # 
         # button1
         # 
         self._button1.Font = System.Drawing.Font("Microsoft Sans Serif", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._button1.Location = System.Drawing.Point(337, 12)
+        self._button1.Location = System.Drawing.Point(337, 52)
         self._button1.Name = "button1"
-        self._button1.Size = System.Drawing.Size(142, 41)
+        self._button1.Size = System.Drawing.Size(291, 49)
         self._button1.TabIndex = 2
-        self._button1.Text = "Clear"
+        self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = True
         self._button1.Click += self.Button1Click
         # 
@@ -65,15 +65,16 @@ class MainForm(Form):
         self._button2.TabIndex = 3
         self._button2.Text = "Exit"
         self._button2.UseVisualStyleBackColor = True
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
         self._button3.Font = System.Drawing.Font("Microsoft Sans Serif", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._button3.Location = System.Drawing.Point(337, 52)
+        self._button3.Location = System.Drawing.Point(337, 12)
         self._button3.Name = "button3"
-        self._button3.Size = System.Drawing.Size(291, 41)
+        self._button3.Size = System.Drawing.Size(142, 41)
         self._button3.TabIndex = 4
-        self._button3.Text = "Calculate"
+        self._button3.Text = "Clear"
         self._button3.UseVisualStyleBackColor = True
         self._button3.Click += self.Button3Click
         # 
@@ -189,7 +190,7 @@ class MainForm(Form):
         # 
         # MainForm
         # 
-        self.ClientSize = System.Drawing.Size(640, 487)
+        self.ClientSize = System.Drawing.Size(1058, 554)
         self.Controls.Add(self._radioButton10)
         self.Controls.Add(self._radioButton9)
         self.Controls.Add(self._radioButton8)
@@ -211,37 +212,37 @@ class MainForm(Form):
         self.ResumeLayout(False)
 
     def RadioButton1CheckedChanged(self, sender, e):
-        self._lable2.text = "0 \nx9 \n__________"
+        self._label2.Text = "0 \nx9 \n__________"
 
     def RadioButton2CheckedChanged(self, sender, e):
-        self._lable2.text = "1 \nx9 \n__________"
+        self._label2.Text = "1 \nx9 \n__________"
 
     def RadioButton3CheckedChanged(self, sender, e):
-        self._lable2.text = "2 \nx9 \n__________"
+        self._label2.Text = "2 \nx9 \n__________"
 
     def RadioButton4CheckedChanged(self, sender, e):
-        self._lable2.text = "3 \nx9 \n__________"
+        self._label2.Text = "3 \nx9 \n__________"
 
     def RadioButton5CheckedChanged(self, sender, e):
-        self._lable2.text = "4 \nx9 \n__________"
+        self._label2.Text = "4 \nx9 \n__________"
 
     def RadioButton7CheckedChanged(self, sender, e):
-        self._lable2.text = "5 \nx9 \n__________"
+        self._label2.Text = "5 \nx9 \n__________"
 
     def RadioButton8CheckedChanged(self, sender, e):
-        self._lable2.text = "6 \nx9 \n__________"
+        self._label2.Text = "6 \nx9 \n__________"
 
     def MainFormLoad(self, sender, e):
         pass
 
     def RadioButton9CheckedChanged(self, sender, e):
-        self._lable2.text = "7 \nx9 \n__________"
+        self._label2.Text = "7 \nx9 \n__________"
 
     def RadioButton10CheckedChanged(self, sender, e):
-        self._lable2.text = "8 \nx9 \n__________"
+        self._label2.Text = "8 \nx9 \n__________"
 
     def RadioButton6CheckedChanged(self, sender, e):
-        self._lable2.text = "9 \nx9 \n__________"
+        self._label2.Text = "9 \nx9 \n__________"
         
 
     def Button1Click(self, sender, e):
@@ -266,8 +267,14 @@ class MainForm(Form):
         elif self._radioButton10.Checked:
             selnum = 9
         
-        step = selnum * 9
-        step = step1 *12345679
+        step1 = selnum * 9
+        step2 = step1 * 12345679
         
         self._label2.Text += "\n" + str(step1) + "\nx12345679" + \
-                              "\n_________\n" + str(step2)
+                             "\n__________\n" + str(step2)
+
+    def Button2Click(self, sender, e):
+        Application.Exit()
+
+    def Button3Click(self, sender, e):
+        self._label2.Text = ""
