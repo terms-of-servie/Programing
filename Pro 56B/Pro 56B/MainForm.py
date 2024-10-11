@@ -145,3 +145,5 @@ class MainForm(Form):
     def Label1Click(self, sender, e):
         pass
 
+int(textBox1):
+    
