@@ -122,6 +122,7 @@ class MainForm(Form):
         self._button3.TabIndex = 8
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = False
+        self._button3.Click += self.Button3Click
         # 
         # textBox1
         # 
@@ -172,3 +173,6 @@ class MainForm(Form):
         self._textBox2.Text = ""
         self._label5.Text = ""
         self._label6.Text = ""
+
+    def Button3Click(self, sender, e):
+        Application.Exit()
