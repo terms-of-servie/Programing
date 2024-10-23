@@ -23,6 +23,7 @@ class MainForm(Form):
         self._textBox1.Name = "textBox1"
         self._textBox1.Size = System.Drawing.Size(100, 20)
         self._textBox1.TabIndex = 0
+        self._textBox1.TextChanged += self.TextBox1TextChanged
         # 
         # label1
         # 
@@ -99,4 +100,7 @@ class MainForm(Form):
         pass
 
     def Button2Click(self, sender, e):
-        self._lable2.Clear()
+        pass
+
+    def TextBox1TextChanged(self, sender, e):
+        pass
