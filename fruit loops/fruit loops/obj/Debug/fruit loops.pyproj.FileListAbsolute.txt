@@ -1,0 +1,10 @@
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\obj\Debug\fruit loops.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\bin\Debug\fruit loops.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\bin\Debug\fruit loops.exe
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\bin\Debug\fruit loops.dll
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\fruit loops\fruit loops\obj\Debug\fruit loops.exe
