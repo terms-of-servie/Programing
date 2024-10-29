@@ -64,7 +64,7 @@ class MainForm(Form):
         # label1
         # 
         self._label1.BackColor = System.Drawing.Color.DarkTurquoise
-        self._label1.Font = System.Drawing.Font("Papyrus", 11.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+        self._label1.Font = System.Drawing.Font("Arial Rounded MT Bold", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._label1.Location = System.Drawing.Point(112, 242)
         self._label1.Name = "label1"
         self._label1.Size = System.Drawing.Size(272, 97)
