@@ -10,3 +10,15 @@ C:\Users\Brotzman.h\Desktop\Programing\Pro 56B\Pro 56B\obj\Debug\Pro 56B.pyprojR
 C:\Users\Brotzman.h\Desktop\Programing\Pro 56B\Pro 56B\obj\Debug\Pro_56B.MainForm.resources
 C:\Users\Brotzman.h\Desktop\Programing\Pro 56B\Pro 56B\obj\Debug\Pro 56B.pyproj.GenerateResource.Cache
 C:\Users\Brotzman.h\Desktop\Programing\Pro 56B\Pro 56B\obj\Debug\Pro 56B.exe
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\bin\Debug\Pro 56B.exe.config
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\bin\Debug\Pro 56B.exe
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\bin\Debug\Pro 56B.dll
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\bin\Debug\IronPython.dll
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\bin\Debug\IronPython.Modules.dll
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\bin\Debug\Microsoft.Scripting.dll
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\obj\Debug\Pro 56B.pyprojResolveAssemblyReference.cache
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\obj\Debug\Pro_56B.MainForm.resources
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\obj\Debug\Pro 56B.pyproj.GenerateResource.Cache
+C:\Users\AB Construction\OneDrive\Desktop\programing\Programing\Pro 56B\Pro 56B\obj\Debug\Pro 56B.exe
