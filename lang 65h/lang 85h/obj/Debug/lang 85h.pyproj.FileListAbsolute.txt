@@ -1,0 +1,10 @@
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\bin\Debug\lang 85h.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\bin\Debug\lang 85h.exe
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\bin\Debug\lang 85h.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\obj\Debug\lang 85h.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\lang 85h\lang 85h\obj\Debug\lang 85h.exe

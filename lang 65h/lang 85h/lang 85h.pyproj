@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{2BA537D9-CE89-400B-840D-B6C90D6F2942}</ProjectGuid>
+    <ProjectGuid>{9BD92FBA-3B65-40CA-BFC2-0CBBD4A226A2}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <RootNamespace>lang_82a</RootNamespace>
-    <AssemblyName>lang 82a</AssemblyName>
+    <RootNamespace>lang_85h</RootNamespace>
+    <AssemblyName>lang 85h</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -64,6 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.py</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />
 </Project>

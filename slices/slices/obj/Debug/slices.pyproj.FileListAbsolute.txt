@@ -1,0 +1,10 @@
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\bin\Debug\slices.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\bin\Debug\slices.exe
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\bin\Debug\slices.dll
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\obj\Debug\slices.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\slices\slices\obj\Debug\slices.exe
