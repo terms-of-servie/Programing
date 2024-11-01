@@ -1,0 +1,12 @@
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\bin\Debug\lang 152b.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\bin\Debug\lang 152b.exe
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\bin\Debug\lang 152b.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\obj\Debug\lang 152b.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\obj\Debug\lang_152b.MainForm.resources
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\obj\Debug\lang 152b.pyproj.GenerateResource.Cache
+C:\Users\Brotzman.h\Desktop\Programing\lang 152b\lang 152b\obj\Debug\lang 152b.exe
