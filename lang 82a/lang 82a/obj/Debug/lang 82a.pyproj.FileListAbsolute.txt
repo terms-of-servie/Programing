@@ -7,6 +7,4 @@ C:\Users\Brotzman.h\Desktop\Programing\lang 82a\lang 82a\bin\Debug\Microsoft.Dyn
 C:\Users\Brotzman.h\Desktop\Programing\lang 82a\lang 82a\bin\Debug\Microsoft.Scripting.dll
 C:\Users\Brotzman.h\Desktop\Programing\lang 82a\lang 82a\bin\Debug\Microsoft.Scripting.Metadata.dll
 C:\Users\Brotzman.h\Desktop\Programing\lang 82a\lang 82a\obj\Debug\lang 82a.pyprojResolveAssemblyReference.cache
-C:\Users\Brotzman.h\Desktop\Programing\lang 82a\lang 82a\obj\Debug\lang_82a.MainForm.resources
-C:\Users\Brotzman.h\Desktop\Programing\lang 82a\lang 82a\obj\Debug\lang 82a.pyproj.GenerateResource.Cache
 C:\Users\Brotzman.h\Desktop\Programing\lang 82a\lang 82a\obj\Debug\lang 82a.exe
