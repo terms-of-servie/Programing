@@ -19,10 +19,13 @@ class MainForm(Form):
         # 
         self._listBox1.BackColor = System.Drawing.Color.Brown
         self._listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        self._listBox1.Font = System.Drawing.Font("MS Gothic", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._listBox1.ForeColor = System.Drawing.Color.LightCoral
         self._listBox1.FormattingEnabled = True
-        self._listBox1.Location = System.Drawing.Point(101, 12)
+        self._listBox1.ItemHeight = 16
+        self._listBox1.Location = System.Drawing.Point(55, 12)
         self._listBox1.Name = "listBox1"
-        self._listBox1.Size = System.Drawing.Size(279, 260)
+        self._listBox1.Size = System.Drawing.Size(367, 256)
         self._listBox1.TabIndex = 0
         # 
         # button1
