@@ -1,0 +1,10 @@
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\bin\Debug\pro 122c.exe.config
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\bin\Debug\pro 122c.exe
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\bin\Debug\pro 122c.dll
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\bin\Debug\IronPython.dll
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\bin\Debug\IronPython.Modules.dll
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\obj\Debug\pro 122c.pyprojResolveAssemblyReference.cache
+C:\Users\Brotzman.h\Desktop\Programing\pro 122c\pro 122c\obj\Debug\pro 122c.exe
