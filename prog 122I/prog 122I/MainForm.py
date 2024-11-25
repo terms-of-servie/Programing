@@ -50,7 +50,7 @@ class MainForm(Form):
         self._button2.Name = "button2"
         self._button2.Size = System.Drawing.Size(167, 122)
         self._button2.TabIndex = 2
-        self._button2.Text = "IT GONE YOU KILLED THEM"
+        self._button2.Text = "CLEAR"
         self._button2.UseVisualStyleBackColor = False
         self._button2.Click += self.Button2Click
         # 
