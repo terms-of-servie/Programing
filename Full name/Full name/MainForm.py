@@ -17,6 +17,7 @@ class MainForm(Form):
         self._button1 = System.Windows.Forms.Button()
         self._button2 = System.Windows.Forms.Button()
         self._button3 = System.Windows.Forms.Button()
+        self._label4 = System.Windows.Forms.Label()
         self.SuspendLayout()
         # 
         # label1
@@ -51,6 +52,7 @@ class MainForm(Form):
         self._textBox1.Name = "textBox1"
         self._textBox1.Size = System.Drawing.Size(146, 13)
         self._textBox1.TabIndex = 2
+        self._textBox1.TextChanged += self.TextBox1TextChanged
         # 
         # textBox2
         # 
@@ -62,14 +64,17 @@ class MainForm(Form):
         self._textBox2.Name = "textBox2"
         self._textBox2.Size = System.Drawing.Size(146, 13)
         self._textBox2.TabIndex = 3
+        self._textBox2.TextChanged += self.TextBox2TextChanged
         # 
         # label3
         # 
+        self._label3.BackColor = System.Drawing.Color.MediumTurquoise
+        self._label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         self._label3.Font = System.Drawing.Font("Tempus Sans ITC", 18, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, 0)
         self._label3.ForeColor = System.Drawing.Color.DeepSkyBlue
-        self._label3.Location = System.Drawing.Point(33, 147)
+        self._label3.Location = System.Drawing.Point(97, 157)
         self._label3.Name = "label3"
-        self._label3.Size = System.Drawing.Size(278, 38)
+        self._label3.Size = System.Drawing.Size(243, 26)
         self._label3.TabIndex = 4
         self._label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
@@ -85,7 +90,7 @@ class MainForm(Form):
         self._button1.Name = "button1"
         self._button1.Size = System.Drawing.Size(88, 45)
         self._button1.TabIndex = 5
-        self._button1.Text = "button1"
+        self._button1.Text = "Enter"
         self._button1.UseVisualStyleBackColor = False
         # 
         # button2
@@ -100,7 +105,7 @@ class MainForm(Form):
         self._button2.Name = "button2"
         self._button2.Size = System.Drawing.Size(88, 45)
         self._button2.TabIndex = 6
-        self._button2.Text = "button2"
+        self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = False
         # 
         # button3
@@ -115,13 +120,24 @@ class MainForm(Form):
         self._button3.Name = "button3"
         self._button3.Size = System.Drawing.Size(88, 45)
         self._button3.TabIndex = 7
-        self._button3.Text = "button3"
+        self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = False
+        # 
+        # label4
+        # 
+        self._label4.Font = System.Drawing.Font("SimSun-ExtB", 9, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label4.ForeColor = System.Drawing.Color.Lime
+        self._label4.Location = System.Drawing.Point(12, 157)
+        self._label4.Name = "label4"
+        self._label4.Size = System.Drawing.Size(79, 26)
+        self._label4.TabIndex = 8
+        self._label4.Text = "Full Name:"
         # 
         # MainForm
         # 
         self.BackColor = System.Drawing.Color.DarkSlateGray
         self.ClientSize = System.Drawing.Size(358, 284)
+        self.Controls.Add(self._label4)
         self.Controls.Add(self._button3)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
@@ -132,6 +148,16 @@ class MainForm(Form):
         self.Controls.Add(self._label1)
         self.Name = "MainForm"
         self.Text = "Full name"
+        self.Load += self.MainFormLoad
         self.ResumeLayout(False)
         self.PerformLayout()
 
+
+    def TextBox1TextChanged(self, sender, e):
+        pass
+
+    def MainFormLoad(self, sender, e):
+        pass
+
+    def TextBox2TextChanged(self, sender, e):
+        pass

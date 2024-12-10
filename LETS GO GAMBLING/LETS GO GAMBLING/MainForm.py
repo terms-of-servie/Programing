@@ -356,7 +356,6 @@ class MainForm(Form):
                 MessageBox.Show("BROKE BOY HAHAHAHAHAHA EVERYONE LOOK AT THIS BROKE BOY")
             pass
         
-        pass
     def Timer1Tick(self, sender, e):
         im1    = self._pictureBox5.BackgroundImage
         im2    = self._pictureBox6.BackgroundImage
