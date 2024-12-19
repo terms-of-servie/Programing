@@ -139,6 +139,7 @@ class MainForm(Form):
         if ball.Right >= rpdl.Right and ball.Bottom >= rpdl.Top and ball.Top <= rpdl.Bottom:
             self.balld = -1
             self.ballup = self.R.Next(-4, 5)
+            
         elif ball.Left <= lpdl.Left and ball.Bottom >= lpdl.Top and ball.Top <= lpdl.Bottom:
             self.balld = 1
             self.ballup = self.R.Next(-4, 5)
@@ -250,9 +251,11 @@ class MainForm(Form):
         """ TODO: FINISH MULTIPLAYER CONTROLS """
         if tmult.Enabled and tball.Enabled:
             if e.KeyCode == Keys.W:
-                pass
+                self.flagleft = False
+                tleft.Enabled = True
             elif e.KeyCode == Keys.S:
-                pass
+                self.flagleft = True
+                tleft.Enabled = True
         pass
 
     def MainFormLoad(self, sender, e):
