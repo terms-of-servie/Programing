@@ -1,0 +1,154 @@
+#we um made this so yep yippe suppa fun and low taper faideeeee i know thas not how you spell fade but i dont really care considering the fact that i can now wager or gamble if you may my kids collage funds for the sport of it have you ever had a son with a crippling adiction to stardew valley of games and wish he stop playing and do that in real life you know get some family friendly word or something make a sucsecful farm instead of wasting away in the house of his father and mother to then install it on his phone making you even more mad wanting to Bash his head in and kill him but then just like a vape addiction he just dies of natural causes may i add wink wink pretty funny dont you think about now that i have oh no!!! my great friend and long time partner has died in a terrible car acident this is why you should speed kids or you could end up crippled and paralyzed and that concludes todays story on how to make a family friendly word game NOOOOOOOOOOOOOOOO
+#jack black                                                                                                                                                                                                                     stop reading and play the game                                                                                                                        why so long                                                                                                                                                         why are you still reading                                                                                 be carfall there is ice on the road                                                                                                                                     🧊                                                                                   OH NO THERE IS A CAR COMING                                          🚗💥🚗              
+import pygame
+import random
+from pygame import *
+from random import shuffle
+#blackjack tutorial python part 1&2
+#pygame 
+#https://stackoverflow.com/questions/18256363/how-do-i-print-the-content-of-a-txt-file-in-python
+pygame.init()
+
+def initialize_screen():
+    info = pygame.display.Info()
+    screen_width = info.current_w
+    screen_height = info.current_h
+    return pygame.display.set_mode((screen_width, screen_height), pygame.RESIZABLE), screen_width, screen_height
+
+screen, SCREEN_WIDTH, SCREEN_HEIGHT = initialize_screen()
+pygame.display.set_caption("Blackjack Game")
+
+DEALER_THRESHOLD = 17
+STARTING_BALANCE = 100
+BET_AMOUNT = 10
+CARD_BACK_SIZE = (100, 140)
+CARD_SIZE = (100, 140)
+CARD_SPACING = 10
+suits = ['h', 'd', 'c', 's']
+ranks = ['a', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'j', 'q', 'k']
+
+def load_image(filename):
+    try:
+        return pygame.image.load(filename)
+    except pygame.error:
+        print(f"Error loading image: {filename}")
+        return None
+
+background = load_image("Background/homepage_background.png")
+game_over_background = load_image("Background/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg")
+if background: 
+    background = pygame.transform.scale(background, (SCREEN_WIDTH, SCREEN_HEIGHT))
+if game_over_background: 
+    game_over_background = pygame.transform.scale(game_over_background, (SCREEN_WIDTH, SCREEN_HEIGHT))
+
+def load_card_image(rank, suit):
+    filename = f"Cards/{rank}-{suit}.png" if rank not in ['j', 'q', 'k', 'a'] else f"Cards/{rank}-{suit}.gif"
+    card_image = load_image(filename)
+    return pygame.transform.scale(card_image, CARD_SIZE) if card_image else None
+
+def load_card_back():
+    card_back_image = load_image("Cards/card_back.png")
+    return pygame.transform.scale(card_back_image, CARD_BACK_SIZE) if card_back_image else None
+
+def create_deck():
+    deck = [(rank, suit) for rank in ranks for suit in suits]
+    shuffle(deck)
+    return deck
+
+def calculate_hand_value(hand):
+    values = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10, 'j': 10, 'q': 10, 'k': 10, 'a': 11}
+    hand_value = sum(values[card[0]] for card in hand)
+    aces = sum(1 for card in hand if card[0] == 'a')
+    while hand_value > 21 and aces:
+        hand_value -= 10
+        aces -= 1
+    return hand_value
+
+font = pygame.font.Font(None, 36)
+
+def create_button(text, x, y, width, height):
+    button_rect = pygame.Rect(x, y, width, height)
+    pygame.draw.rect(screen, (50, 50, 50), button_rect)
+    button_text = font.render(text, True, (255, 255, 255))
+    screen.blit(button_text, (x + (width - button_text.get_width()) // 2, y + (height - button_text.get_height()) // 2))
+    return button_rect
+
+
+def display_cards(hand, center_x, y):
+    total_width = len(hand) * (CARD_SIZE[0] + CARD_SPACING) - CARD_SPACING
+    start_x = center_x - total_width // 2
+    for i, card in enumerate(hand):
+        card_image = load_card_image(card[0], card[1])
+        if card_image:
+            screen.blit(card_image, (start_x + i * (CARD_SIZE[0] + CARD_SPACING), y))
+
+def display_card_back(center_x, y):
+    card_back = load_card_back()
+    if card_back:
+        screen.blit(card_back, (center_x - CARD_SIZE[0] // 2, y))
+
+def game_over(result_text):
+    while True:
+        if game_over_background:
+            screen.blit(game_over_background, (0, 0))
+        result_rendered = font.render(result_text, True, (255, 255, 255))
+        screen.blit(result_rendered, (SCREEN_WIDTH // 2 - result_rendered.get_width() // 2, SCREEN_HEIGHT // 2 - 100))
+        play_again_button = create_button("Play Again", SCREEN_WIDTH // 2 - 100, SCREEN_HEIGHT // 2 + 50, 200, 50)
+        pygame.display.update()
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                exit()
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                if play_again_button.collidepoint(event.pos):
+                    main()
+
+def main():
+    balance = STARTING_BALANCE
+    while balance > 0:
+        deck = create_deck()
+        player_hand = [deck.pop(), deck.pop()]
+        dealer_hand = [deck.pop(), deck.pop()]
+        pot = BET_AMOUNT
+        balance -= BET_AMOUNT
+        player_turn = True
+        while player_turn:
+            if background:
+                screen.blit(background, (0, 0))
+            display_cards(player_hand, SCREEN_WIDTH // 2, SCREEN_HEIGHT - SCREEN_HEIGHT // 4 - CARD_SIZE[1])
+            dealer_hand_x = SCREEN_WIDTH // 2
+            for i, card in enumerate(dealer_hand):
+                if i == 0:
+                    display_card_back(dealer_hand_x, SCREEN_HEIGHT // 6)
+                else:
+                    display_cards([card], dealer_hand_x, SCREEN_HEIGHT // 6)
+            hit_button = create_button("Hit", SCREEN_WIDTH // 2 - 200, SCREEN_HEIGHT - 80, 150, 50)
+            stand_button = create_button("Stand", SCREEN_WIDTH // 2 + 50, SCREEN_HEIGHT - 80, 150, 50)
+            pygame.display.update()
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    exit()
+                elif event.type == pygame.MOUSEBUTTONDOWN:
+                    if hit_button.collidepoint(event.pos):
+                        player_hand.append(deck.pop())
+                        if calculate_hand_value(player_hand) > 21:
+                            player_turn = False
+                    elif stand_button.collidepoint(event.pos):
+                        player_turn = False
+        while calculate_hand_value(dealer_hand) < DEALER_THRESHOLD:
+            dealer_hand.append(deck.pop())
+        player_total = calculate_hand_value(player_hand)
+        dealer_total = calculate_hand_value(dealer_hand)
+        if player_total > 21 or (dealer_total <= 21 and dealer_total > player_total):
+            result_text = "you and your army were put 6 feet under Dealer wins."
+        elif dealer_total > 21 or player_total > dealer_total:
+            result_text = "you have stormed the castle Player wins."
+            balance += pot * 2
+        else:
+            result_text = "it is a stalemate"
+            balance += pot
+        game_over(result_text)
+
+if __name__ == "__main__":
+    main()
